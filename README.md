@@ -7,7 +7,7 @@ entregas avulsas no mapa e visualizar trajetos e uma matriz de distâncias.
 
 ## Arquitetura: cenário 1.1
 
-![Fluxograma da arquitetura](public/arquitetura.svg)
+![Fluxograma da arquitetura](frontend/public/arquitetura.svg)
 
 Dois componentes desenvolvidos: esta interface e uma API Python/FastAPI em
 repositório separado. A API integra Nominatim e OSRM via HTTP/JSON e persiste
