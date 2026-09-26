@@ -29,8 +29,9 @@ Clone ou extraia cada componente de forma que as pastas fiquem assim:
 
 ```text
 mvp/
-  frontend/   # raiz deste repositório: Dockerfile, compose.yaml, README.md
-  backend/    # raiz do outro repositório: Dockerfile, requirements.txt, app/
+  compose.yaml
+  frontend/Dockerfile
+  backend/Dockerfile
 ```
 
 Na pasta frontend:
@@ -39,6 +40,8 @@ Na pasta frontend:
 Copy-Item .env.example .env
 # Edite .env: defina MYSQL_PASSWORD e MYSQL_ROOT_PASSWORD com senhas diferentes.
 # Preencha um contato real no EXTERNAL_API_USER_AGENT.
+
+Na pasta raiz do projeto:
 docker compose up -d --build --wait
 docker compose ps
 ```
