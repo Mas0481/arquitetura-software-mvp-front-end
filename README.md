@@ -35,7 +35,7 @@ mvp/
   backend/Dockerfile
 ```
 
-Na pasta raiz:
+Na pasta raiz (no exemplo pasta MVP):
 
 ```powershell
 Copy-Item .env.example .env
