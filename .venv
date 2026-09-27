@@ -1,0 +1,13 @@
+APP_NAME=MVP - Sprint: Arquitetura de Software
+DATABASE_URL=mysql+pymysql://root:@127.0.0.1:3306/windroute
+FRONTEND_ORIGIN=http://localhost:5173
+MYSQL_PASSWORD=123
+MYSQL_ROOT_PASSWORD=1234
+
+# Serviços externos - configuráveis
+NOMINATIM_URL=https://nominatim.openstreetmap.org
+OSRM_URL=https://router.project-osrm.org
+
+# Identifique sua aplicação conforme a política do Nominatim.
+# Idealmente inclua um contato válido.
+EXTERNAL_API_USER_AGENT=WindRouteMVP/1.0 (contato: seu-email@dominio.com)
